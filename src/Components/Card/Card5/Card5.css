@@ -1,0 +1,20 @@
+.sr-nit-box img{
+    background-color: #e8e8e8;
+    padding: 40px;
+}
+.sr-nit-box .sr-nit-inds{
+    color: #243a82;
+    font-size: 18px !important;
+    padding: 20px 10px;
+}
+
+.sr-nit-box .sr-nit-inflex{
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+.sr-nit-box .tbtn{
+    padding: 10px 30px;
+    background: #243a82;
+    color: white;
+    border-radius: 2px;
+}

@@ -1,0 +1,78 @@
+.team-section-3 .section-title span{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.team-section-3 .section-title span.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.team-section-3 .section-title h2{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.team-section-3 .section-title h2.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.team-section-3 .section-title-area a{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.team-section-3 .section-title-area a.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.team-section-3 .card1{
+    z-index: 4;
+    opacity: 0;
+}
+.team-section-3 .card2{
+    z-index: 3;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.team-section-3 .card3{
+    z-index: 2;
+    transform: translateX(-200%);
+    opacity: 0;
+}
+.team-section-3 .card4{
+    z-index: 1;
+    transform: translateX(-300%);
+    opacity: 0;
+}
+
+.team-section-3 .card1.active{
+    z-index: 4;
+    opacity: 1;
+    transition: transform 0.3s ease-in-out 1s;
+}
+.team-section-3 .card2.active{
+    z-index: 3;
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.6s ease-in-out 1s;
+}
+.team-section-3 .card3.active{
+    z-index: 2;
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.9s ease-in-out 1s;
+}
+.team-section-3 .card4.active{
+    z-index: 1;
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 1.2s ease-in-out 1s;
+}
+
+.team-section-3 .card3 .single-team-items{
+    transform: translateX(0);
+}

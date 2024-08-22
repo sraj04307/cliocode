@@ -1,0 +1,60 @@
+.offer-section{
+    
+}
+.offer-section .section-title span{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.offer-section .section-title span.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.offer-section .section-title h2{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+.offer-section .section-title h2.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 1s ease-in-out 0.3s;
+}
+
+.offer-section .offer-items{
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.offer-section .offer-items.active1{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out 1.3s;
+}
+.offer-section .offer-items.active2{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out 1.6s;
+}
+.offer-section .offer-items.active3{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out 1.9s;
+}
+.offer-section .offer-items.active4{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out 2.2s;
+}
+.offer-section .offer-items.active5{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out 2.5s;
+}
+.offer-section .offer-items.active6{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out 2.8s;
+}

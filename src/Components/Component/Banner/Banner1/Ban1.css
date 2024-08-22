@@ -1,0 +1,102 @@
+/* .sr-slider-img{
+    background-image: url("../../../../assets//img/Home\ Page\ Banner/1.jpg");
+    background-size:100%;
+}
+    
+
+.sr-slider-image2{
+    background-image: url("../../../../assets//img/Home\ Page\ Banner/2.jpg");
+    background-size: 100%;
+    
+}
+.sr-slider-image3{
+    background-image: url("../../../../assets//img/Home\ Page\ Banner/3.jpg");
+    background-size: 100%;
+} */
+
+.hero-3 .hero-content h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+@media (max-width: 1399px) {
+    .hero-3 .hero-content {
+        padding: 80px 0 !important;
+    }
+}
+.section-padding {
+    padding: 50px 0 !important;
+}
+
+.theme-btn {
+    background-color: var(--theme);
+    color: var(--white);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 0;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    line-height: 1;
+}
+
+.theme-btn.border-white{
+    padding: 15px 20px;
+}
+
+/* Define keyframes animation */
+@keyframes bannanim1 {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to h5 within .hero-section when .swiper-slide-active */
+
+.hero-section .swiper-slide-active h5 {
+    animation: bannanim1 0.8s ease-in-out ;
+}
+.hero-section .swiper-slide-active h1 {
+    animation: bannanim1 1.2s ease-in-out ;
+}
+.hero-section .swiper-slide-active p {
+    animation: bannanim1 1s ease-in-out ;
+}
+.hero-section .swiper-slide-active a {
+    animation: bannanim1 1s ease-in-out ;
+}
+
+@media (max-width: 768px) {
+    .hero-3 .hero-content {
+        padding: 40px 25px !important;
+        text-align: left;
+    }
+
+    .hero-3 .hero-content h1 {
+        font-size: 25px;
+    }
+    .hero-3 .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-3 .hero-content .hero-button{
+        justify-content: left;
+    }
+
+    .swiper-button-prev:after {
+        font-size: 20px !important;
+    }
+
+    .swiper-button-next:after{
+        font-size: 20px !important;
+    }
+}

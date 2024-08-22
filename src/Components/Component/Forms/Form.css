@@ -1,0 +1,72 @@
+form input{
+    outline: none !important;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+form input::placeholder{
+    color: black;
+}
+
+form select{
+    outline: none !important;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 10px !important;
+    border-radius: 5px;
+    color: black;
+}
+form select::placeholder{
+   color: black;
+}
+
+form textarea{
+    outline: none !important;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
+    resize: none;
+    color: black;
+}
+
+form textarea::placeholder{
+    color: black;
+}
+
+form .btn-sub{
+    outline: none !important;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #243a82;
+    color: white;
+}
+
+
+form .btn-sub:hover{
+    background-color: #2198d5;
+}
+
+@media (max-width: 426px){
+    .contact-wrapper-2 .contact-left-items .contact-info-area-2 {
+        padding: 16px;
+    }
+
+    
+.contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items .content h3 a {
+    font-size: 16px;
+}
+.contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items .content h3 {
+    font-size: 16px;
+}
+
+    .contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items {
+        flex-wrap:nowrap;
+
+    }
+
+    .contact-wrapper-2 .contact-content h2{
+        font-size: 20px;
+    }
+}

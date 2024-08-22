@@ -1,0 +1,95 @@
+.work-process-section{
+    
+}
+.work-process-section .section-title span{
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+.work-process-section .section-title span.active{
+    transform: translateX(0);
+    transition: all .4s ease-in-out ;
+    opacity: 1;
+}
+
+.work-process-section .section-title h2{
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out ;
+    opacity: 0;
+}
+.work-process-section .section-title h2.active{
+    transform: translateX(0);
+    transition: all 0.4s ease-in-out 0.3s;
+    opacity: 1;
+}
+
+.work-process-section .icon1 {
+    animation: iconanim 0.8s ease-in-out infinite alternate;
+}
+
+.work-process-section .icon2 {
+    animation: iconanim 0.8s ease-in-out infinite alternate;
+}
+
+.work-process-section .icon3 {
+    animation: iconanim 0.8s ease-in-out infinite alternate;
+}
+.work-process-section .icon4 {
+    animation: iconanim 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes iconanim {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+
+.work-process-section .work-process-items1{
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.work-process-section .work-process-items1.active{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all .4s ease-in-out .3s;
+}
+
+.work-process-section .work-process-items2{
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.work-process-section .work-process-items2.active{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all .4s ease-in-out .6s;
+}
+
+
+.work-process-section .work-process-items3{
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.work-process-section .work-process-items3.active{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all .4s ease-in-out .9s;
+}
+
+
+.work-process-section .work-process-items4{
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.work-process-section .work-process-items4.active{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all .4s ease-in-out 1.2s;
+}

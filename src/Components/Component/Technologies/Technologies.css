@@ -1,0 +1,99 @@
+.tech-section {
+    padding: 50px 0;
+    background-color: #ebebeb;
+}
+.nav{background-color: white;}
+
+.tech-section .tech-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tech-header h2 {
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.tech-header p {
+    color: #6c757d;
+}
+
+.tech-tabs .nav-item {
+   /* width: 100%; */
+}
+
+.tech-icon:hover {
+    background-color: #000000 !important;
+    color: white;
+}
+
+.tech-tabs .nav-link i{
+ color: #002c89;
+}
+.tech-tabs .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #343a40;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 5px;
+    /* background-color: #f8f9fa; */
+    transition: background-color 0.2s;
+    gap: 10px;
+}
+.tech-tabs .nav-link i{
+    font-size: 40px;
+}
+
+
+.tech-tabs .nav-link.active {
+    background-color: #002c89;
+    color: white;
+}
+
+.tech-tabs .nav-link.active i {
+    color: white;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tech-icon {
+    text-align: center;
+    padding: 20px;
+    min-width: 120px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.tech-icon i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.tech-icon svg {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.tech-icon:hover {
+    background-color: #e9ecef;
+}
+
+.tab-content{
+    display: none;
+}
+.tab-content.active{
+    display: block;
+}
+
+.tech-section{
+
+}

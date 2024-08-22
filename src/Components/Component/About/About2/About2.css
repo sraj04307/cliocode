@@ -1,0 +1,69 @@
+.about-section2{
+    /* background: url('../../../../assets/img/service/service-bg-2.jpg'); */
+}
+.about-section2 .author-icon .icon{
+    background: #002c89;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 50%;
+
+}
+
+
+.about-image-items{
+    
+}
+
+.about-image-1{
+   
+}
+
+.sr-about1-top p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sr-about1-top {
+    margin-bottom: 10px;
+}
+.sr-about1-top span{
+    margin-bottom: 5px;
+}
+
+.about-section2 .left{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.about-section2 .left.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.8s ease-in-out;
+}
+.about-section2 .right{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.s ease-in-out;
+}
+.about-section2 .right.active{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.8s ease-in-out;
+}
+
+.about-wrapper .about-content .about-icon-items{
+    flex-wrap: nowrap;
+}
+
+.about-section2-img{
+    width: 100%;
+}
+
+.about-wrapper.style-2 .about-image-items .counter-shape {
+    background-color: var(--theme);
+    bottom: 0;
+    left: 3%;
+}
+
+
+

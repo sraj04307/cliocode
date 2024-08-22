@@ -1,0 +1,42 @@
+.industries-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+.industries-section .service-card {
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    height: 100%;
+}
+.industries-section .service-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #00aaff;
+    background: #ade4ff75;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.industries-section .service-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+.industries-section .service-divider {
+    width: 50px;
+    height: 5px;
+    background-color: #00aaff;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.industries-section .service-description {
+    color: #555;
+}

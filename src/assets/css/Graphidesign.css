@@ -1,0 +1,73 @@
+
+
+
+.Graphicdesign-section2 .service-box{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+}
+
+
+.Graphicdesign-section2 .service-box h4{
+    color: #18185e;
+}
+
+.Graphicdesign-section2 .service-box i{
+    font-size: 40px;
+    color: #18185e;
+}
+
+.contact-today{
+    background: #243a82;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.Graphicdesign-section3 {
+    padding: 20px;
+}
+.Graphicdesign-section3 .industry-card {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100%;
+}
+.Graphicdesign-section3 .industry-card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #18185e;
+}
+.Graphicdesign-section3 .industry-card p {
+    color: #000000;
+}
+
+
+
+.Graphicdesign-section5 .contact-now, .Graphicdesign-section5 .call-now{
+    padding: 12px 30px;
+    background-color: #18185e;
+    border-radius: 10px;
+}
+.Graphicdesign-section5 .contact-now a, .Graphicdesign-section5 .call-now a{
+   color: white;
+}
+
+.industry-card:hover{
+    background-color: #18185e;
+}
+.industry-card:hover p{
+    color: white;
+}
+.industry-card:hover i{
+    color: white;
+}
+
+.industry-card p{
+    transition: none;
+}

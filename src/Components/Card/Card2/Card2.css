@@ -1,0 +1,153 @@
+.service-card-items{
+    box-shadow: 0px 0px 4px rgb(198, 198, 198);
+    transform: rotateX(-90deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+
+.id1.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id2.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id3.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+
+.id4.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id5.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id6.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id7.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id8.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id9.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id10.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id11.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id12.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id13.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id14.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id15.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id16.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id17.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id18.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id19.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id20.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id21.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id22.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id23.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id24.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id25.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id26.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id27.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id28.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id29.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}

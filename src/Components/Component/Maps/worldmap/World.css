@@ -1,0 +1,291 @@
+.world-section {
+  background: linear-gradient(
+    to bottom,
+    rgb(79, 173, 222),
+    /* Fully opaque at the top */ rgb(79, 173, 222, .6)
+      /* Fully transparent at the bottom */
+  );
+  color: white !important;
+}
+
+.world-section .non-active {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.world-section h2 {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.world-section span.active {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.world-section h2.active {
+  font-weight: 600;
+  color: white;
+  transform: translateX(0%);
+  opacity: 1;
+  transition: all 0.4s ease-in-out 0.3s;
+}
+
+.world-section .loc i img {
+  width: 30px;
+}
+
+.map {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.world-section .map img {
+  width: 100%;
+  filter: invert(90%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out 0.6s;
+}
+.world-section .map img.active {
+  width: 100%;
+  filter: invert(90%);
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.6s;
+}
+
+.world-section .map i {
+  color: #000000;
+}
+
+.world-section .map .location {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Corrected to use rgba for transparency */
+  padding: 10px 0;
+  width: 200px;
+  max-height: none; /* Ensures the height can grow with content */
+  text-align: center;
+  border-radius: 3px;
+  display: none;
+}
+
+.world-section .map .location h6 {
+  color: white !important;
+  font-size: 18px;
+}
+
+.world-section .map .location span {
+  color: white !important;
+  font-size: 16px;
+}
+
+.world-section .map .pin1 {
+  position: absolute;
+  top: 16%;
+  left: 13%;
+  /* animation: mapanim1 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.world-section .map .pin2 {
+  position: absolute;
+  top: 16%;
+  left: 43%;
+  /* animation: mapanim2 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.world-section .map .pin3 {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  /* animation: mapanim3 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.world-section .map .pin4 {
+  position: absolute;
+  top: 43%;
+  left: 59%;
+  /* animation: mapanim4 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.world-section .map .pin5 {
+  position: absolute;
+  top: 45%;
+  left: 69%;
+  /* animation: mapanim5 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.world-section .map .pin6 {
+  position: absolute;
+  top: 42%;
+  left: 80%;
+  /* animation: mapanim6 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.world-section .map .pin7 {
+  position: absolute;
+  top: 67%;
+  left: 82%;
+  /* animation: mapanim7 0.8s ease-in-out infinite alternate; */
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes mapanim1 {
+  from {
+    top: 15%;
+  }
+  to {
+    top: 16%;
+  }
+}
+
+@keyframes mapanim2 {
+  from {
+    top: 15%;
+  }
+  to {
+    top: 16%;
+  }
+}
+
+@keyframes mapanim3 {
+  from {
+    top: 42%;
+  }
+  to {
+    top: 43%;
+  }
+}
+
+@keyframes mapanim4 {
+  from {
+    top: 42%;
+  }
+  to {
+    top: 43%;
+  }
+}
+
+@keyframes mapanim5 {
+  from {
+    top: 44%;
+  }
+  to {
+    top: 45%;
+  }
+}
+
+@keyframes mapanim6 {
+  from {
+    top: 41%;
+  }
+  to {
+    top: 42%;
+  }
+}
+
+@keyframes mapanim7 {
+  from {
+    top: 66%;
+  }
+  to {
+    top: 67%;
+  }
+}
+
+.world-section .map .pin1:hover .location {
+  display: block;
+}
+.world-section .map .pin2:hover .location {
+  display: block;
+}
+.world-section .map .pin3:hover .location {
+  display: block;
+}
+.world-section .map .pin4:hover .location {
+  display: block;
+}
+.world-section .map .pin5:hover .location {
+  display: block;
+}
+.world-section .map .pin6:hover .location {
+  display: block;
+}
+.world-section .map .pin7:hover .location {
+  display: block;
+}
+
+.world-section .map .pin1.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+.world-section .map .pin2.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+.world-section .map .pin3.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+.world-section .map .pin4.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+
+.world-section .map .pin5.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+
+.world-section .map .pin6.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+
+.world-section .map .pin7.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out 0.9s;
+}
+
+
+/*  */
+
+/* World.css */
+
+.section-padding {
+  padding: 20px;
+}
+
+.world-section {
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 769px) {
+  #map {
+    height: 300px; /* Adjust minimum height for smaller screens */
+  }
+}
+

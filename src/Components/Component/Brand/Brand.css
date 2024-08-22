@@ -1,0 +1,37 @@
+.brand-wrapper .brand-image{
+    filter: grayscale(0) !important;
+    opacity: 1 !important;
+}
+
+.brand-wrapper .brand-image{
+    /* background:  rgb(239, 239, 239) !important; */
+    /* padding: 10px !important; */
+    /* box-shadow: 0 0 8px ; */
+    /* border: 1px solid rgb(172, 172, 172); */
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+.brand-wrapper .brand-image img{
+    width: 100% !important;
+    /* padding: 10px; */
+}
+
+.brand-wrapper h6{
+    margin-bottom: 0;
+    font-size: 20px !important;
+    color: white;
+}
+
+.brand-wrapper p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 39px !important;
+    line-height: 40px;
+    color: white;
+}
+
+.brand-section{
+    background-image: url('../../../assets/img/handshake-silhouette-against-city-skyline-sunset_878954-9648.jpg');
+    background-size: cover;
+}

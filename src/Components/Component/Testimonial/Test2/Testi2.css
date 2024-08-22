@@ -1,0 +1,62 @@
+.testimonial-box-items .client-items .client-content .star i{
+    color: yellow;
+}
+
+.testimonial-box-items .client-items .client-content h4{
+    color: #243a82;
+}
+
+.testi2 .testimonial-box-items{
+    height: 100% !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.testi2 .testi2-card{
+    box-shadow: 0px 0px 4px rgb(198, 198, 198);
+    transform: rotateX(-90deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out;
+}
+
+.id1.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out;
+}
+.id2.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 0.6s;
+}
+.id3.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 1.2s;
+}
+
+.id4.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 1.8s;
+}
+.id5.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 2.4s;
+}
+.id6.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 3.0s;
+}
+.id7.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 3.6s;
+}
+.id8.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 4.2s;
+}

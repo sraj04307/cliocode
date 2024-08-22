@@ -1,0 +1,33 @@
+.breadcrumb-wrapper{
+/* background: url('../../../../assets/img/About\ Us/3.jpg'); */
+/* background-size:cover; */
+}
+
+.breadcrumb-wrapper::before{
+    z-index: 1;
+}
+
+
+@keyframes banner2anim {
+    
+    0% {
+        transform: scale(0); /* Start with element scaled to 0 */
+    }
+    50% {
+        transform: scale(1.2); /* Scale up to 1.2 halfway through animation */
+    }
+    100% {
+        transform: scale(1); /* Return to normal scale by the end of animation */
+    }
+}
+
+.breadcrumb-wrapper .breadcrumb-items li{
+    animation: headanim1 0.8s ease-in-out;
+}
+.breadcrumb-wrapper .breadcrumb-items li a{
+    animation: headanim1 0.8s ease-in-out;
+}
+
+.breadcrumb-wrapper .page-heading{
+    padding: 100px 0;
+}

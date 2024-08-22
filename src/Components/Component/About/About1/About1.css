@@ -1,0 +1,111 @@
+.about-section{
+    opacity: 0;
+    transition: all 0.3s;
+}
+.about-section .section-title p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-section.active{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.about-wrapper-2 .about-content p {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.about-image{
+    position: relative;
+}
+
+.about-image .content{
+    position: absolute !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    background: #e7e7e7;
+    padding: 10px 20px;
+}
+
+
+
+.about-wrapper-2 .about-content p {
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+    display: inline-block;
+}
+
+.about-wrapper-2 .about-content .about-author{
+    margin-top: 30px;
+}
+
+.about-section .myfadein-left{
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.about-section .myfadein-left.active{
+    transform: translateX(0%);
+    transition: all 0.4s ease-in-out 0.1s;
+    opacity: 1;
+}
+
+.about-section .myfadein-right{
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out ;
+    opacity: 0;
+}
+
+.about-section .myfadein-right.active{
+    transform: translateX(0%);
+    transition: all 0.4s ease-in-out 0.2s;
+    opacity: 1;
+}
+
+/* .about-section .content{
+
+    right: 100% !important;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 1s;
+}
+
+.about-section .content.active{
+
+    right: 10px !important;
+    opacity: 1;
+    transition: all 1s ease-in-out 1s;
+} */
+
+
+
+@media (max-width: 769px){
+    .about-section h2{
+        font-size: 20px;
+    }
+}
+
+.sr-about1-top{
+    text-transform: capitalize !important;
+    color: black !important;
+    font-size: 20px;
+}
+.sr-about1-top p{
+    color: #002c89 !important;
+    text-transform: capitalize !important;
+}
+.sr-about1-top span{
+    color: #2198d5 !important;
+    text-transform: capitalize !important;
+}
+.section-title{
+    margin-bottom: 5px !important ;
+}
+.sr-about1-heading{
+    font-size: 30px;
+}
+
+.sr-subheading-font-size{
+    font-size: 30px !important;
+  }

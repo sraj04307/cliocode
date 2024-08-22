@@ -1,0 +1,75 @@
+.card3 .single-team-items{
+    box-shadow: 0px 0px 4px rgb(198, 198, 198);
+    transform: rotateX(-90deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+
+.id1.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id2.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id3.active{
+    transform: rotateX(0deg) !important;
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+
+.id4.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id5.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id6.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id7.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+.id8.active{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    transition: all 0.4s ease-in-out;
+}
+
+.profile-details {
+    z-index: 8;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 10px;
+    background: #000000a3;
+    color: white;
+    /* display: none; */
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.single-team-items .team-image:hover .social-profile:hover + .profile-details {
+    display: block;
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+}
+
+.single-team-items {
+    overflow: hidden;
+}
+
+.single-team-items .team-content{
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 17%) !important;
+}

@@ -1,0 +1,186 @@
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 111;
+    background: white;
+    box-shadow: 1px 1px 5px #525252;
+
+}
+
+header nav i{
+    padding-left: 5px;
+}
+
+.header-3 .header-main .header-right {
+    gap: 30px;
+}
+
+.header-main{
+    padding: 0 !important;
+}
+
+.header-3 .header-main .header-right .header-button .theme-btn {
+    padding: 12px 20px !important;
+}
+
+.header-main .main-menu ul li {
+    margin-right: 13px !important;
+}
+
+.header-main .main-menu ul li a{
+    text-transform: uppercase !important;
+    font-size: 15px;
+}
+
+
+.header-main .main-menu ul li .submenu li a {
+    position: relative;
+    z-index: 11;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--header);
+    padding: 1px 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    text-transform: capitalize !important;
+}
+
+
+/* Define keyframes animation */
+@keyframes headanim1 {
+    0% {
+        transform: scale(0); /* Start with element scaled to 0 */
+    }
+    50% {
+        transform: scale(1.2); /* Scale up to 1.2 halfway through animation */
+    }
+    100% {
+        transform: scale(1); /* Return to normal scale by the end of animation */
+    }
+}
+
+/* Apply animation to .logo within header */
+header .logo {
+    /* animation: headanim1 0.8s ease-in-out; */
+    width: 200px;
+    padding: 6px 0;
+}
+
+header .header-main .main-menu ul li a{
+    /* animation: headanim1 0.8s ease-in-out 0.2s; */
+}
+
+header .header-button{
+    /* animation: headanim1 0.8s ease-in-out; */
+}
+
+.header-3 .header-main .header-right .header-button::before{
+    border-top: none;
+}
+
+.header-3::before{
+    background-color: transparent !important;
+
+}
+
+.sidemenu-container{
+    position: absolute;
+    top: 0;
+    background-color: rgba(15, 15, 15, 0.584);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sidemenu{
+    background: white;
+    height: 100vh;
+}
+
+.side-space-left{
+    min-height: 100vh;
+    display: block;
+}
+
+.sidemenu-container nav li .submenu{
+    display: none;
+}
+
+.sidemenu-container nav li .submenu.active1{
+    display: block;
+}
+.sidemenu-container nav li .submenu.active2{
+    display: block;
+}
+
+header .sidemenu-container{
+    transform: translateX(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+header .sidemenu-container.active3{
+    transform: translateX(0%);
+    transition: all 0.3s ease-in-out;
+}
+
+header .logo2{
+    width: 160px;
+    
+}
+header .close-btn-container i{
+    font-size: 25px;
+    color: #243a82;
+
+}
+
+.sidemenu-container nav ul li{
+    padding: 5px 10px;
+}
+
+.sidemenu-container nav ul li a{
+    font-size: 18px;
+    
+}
+
+.sidemenu-container nav ul li ul li{
+    padding: 3px 10px;
+}
+
+.sidemenu-container nav ul li ul li a{
+    font-size: 16px;
+    
+}
+
+.sidebar__toggle i{
+    font-size: 40px;
+}
+
+
+header .service-menu div{
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+
+header .service-menu ul{
+    display: none;
+    transform-origin: top;
+    transform: rotate(-90deg);
+    visibility:hidden;
+    transition: all 0.3s ease-in-out;
+}
+header .service-menu ul.active4{
+    display: block;
+    transform: rotate(0deg);
+    visibility:visible;
+    transition: all 0.3s ease-in-out;
+}
+
+#mobile-menu li a:hover{
+    color: #243a82;
+}
+header .submenu{
+    overflow: hidden;
+}

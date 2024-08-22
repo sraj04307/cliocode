@@ -1,0 +1,57 @@
+
+
+
+.Ecom-section2 .service-box{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+}
+
+
+.Ecom-section2 .service-box h4{
+    color: #18185e;
+}
+
+.Ecom-section2 .service-box i{
+    font-size: 40px;
+    color: #18185e;
+}
+
+.contact-today{
+    background: #243a82;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.Ecom-section3 {
+    padding: 20px;
+}
+.Ecom-section3 .industry-card {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100%;
+}
+.Ecom-section3 .industry-card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #18185e;
+}
+.Ecom-section3 .industry-card p {
+    color: #000000;
+}
+
+.Ecom-section5 .contact-now, .Ecom-section5 .call-now{
+     padding: 12px 30px;
+     background-color: #18185e;
+     border-radius: 10px;
+}
+.Ecom-section5 .contact-now a, .Ecom-section5 .call-now a{
+    color: white;
+}

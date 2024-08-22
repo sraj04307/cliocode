@@ -1,0 +1,19 @@
+.news-card-items{
+    box-shadow: 0px 0px 4px rgb(198, 198, 198);
+    /* transform: rotateX(-90deg); */
+    /* transform-origin: top; */
+    /* transition: all 0.4s ease-in-out; */
+}
+
+.news-card-items.style-2 .news-image {
+    position: relative;
+    height: 200px;
+}
+
+.news-card-items.style-2 .news-image .post-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: initial;
+    padding: 15px 10px;
+}

@@ -1,0 +1,103 @@
+.sr-smo-nit-smo .sr-smo-nit-heading-1 th {
+    background: #243a82;
+  }
+  
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .sr-smo-nit-heading {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 30px;
+  }
+  
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .bronze {
+    background: #cd7f32;
+    text-align: center;
+    padding: 30px;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .silver {
+    background: #c0c0c0;
+    text-align: center;
+    padding: 30px;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .gold {
+    background: #ffd700;
+    text-align: center;
+    padding: 30px;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .platinum {
+    background: #8a2be2;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .sr-smo-nit-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .sr-smo-nit-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-1 .sr-smo-nit-subtitle2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .sr-smo-nit-smo .sr-smo-nit-heading-2 td {
+    background: #2198d5;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-2 td .sr-smo-nit-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+  }
+  .sr-smo-nit-smo .sr-smo-nit-heading-2 td:nth-child(1) .sr-smo-nit-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-align: left;
+  }
+  
+  .sr-smo-nit-smo .sr-smo-nit-heading-3 td {
+    background: #243a82;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sr-smo-nit-smo .sr-smo-nit-heading-3 .sr-smo-nit-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .sr-smo-nit-smo table tbody tr:nth-child(even) td {
+    background: #f7f7f7;
+  }
+  
+  .sr-smo-nit-smo table tbody tr td {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .sr-smo-nit-smo table tbody tr td:nth-child(1) {
+    text-align: left;
+  }
+  
+  .sr-smo-nit-smo table tbody tr td:nth-child(3){
+      z-index: 1;
+      background: #ddd !important;
+  }
+  
+  .sr-smo-nit-smo table tbody tr td a{
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+      background-color: #17c1f6;
+      border-radius: 10px;
+      padding: 8px 15px;
+  }

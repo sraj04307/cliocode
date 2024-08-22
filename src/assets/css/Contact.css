@@ -1,0 +1,10 @@
+.contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items .content p{
+    font-size: 22px;
+}
+.contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items .content h3 a {
+    color: var(--white);
+    font-size: 16px;
+}
+.contact-section .contact-info-items h3{
+    font-size: 16px !important;
+}

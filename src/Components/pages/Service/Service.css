@@ -1,0 +1,20 @@
+.service-section h3::after{
+    content: '';
+    background: #0f0d1d;
+    display: block;
+    width: 70px;
+    height: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.service-section .ourservice{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.service-section .ourservice.active{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}

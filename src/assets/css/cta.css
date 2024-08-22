@@ -1,0 +1,18 @@
+.business-growth {
+    text-align: center;
+}
+.business-growth h1 {
+    color: #007bff;
+}
+.business-growth p {
+    font-size: 1.2rem;
+}
+.business-growth .badge {
+    display: inline-block;
+}
+
+.business-growth .contact-button{
+    padding: 12px 30px;
+    background-color: #243a82;
+    color: white;
+}

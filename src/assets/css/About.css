@@ -1,0 +1,85 @@
+.custom-box {
+    border: 2px solid #d7d7d7;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    height: 100%;
+    
+}
+.custom-box h2 {
+    margin-bottom: 15px;
+}
+
+.about-mission-vision-section{
+    background-color: #ebebeb;
+}
+
+.custom-box1{
+background: url('../img/mission\ \(2\).png');
+background-repeat: no-repeat;
+background-position: right top;
+background-position-x: 95%;
+background-position-y: 10%;
+background-size: 10%;
+background-color: white;
+}
+.custom-box2{
+background: url('../img/shared-vision.png');
+background-repeat: no-repeat;
+background-position: right top;
+background-position-x: 95%;
+background-position-y: 10%;
+background-blend-mode: color-burn;
+background-size: 10%;
+background-color: white;
+}
+
+/*  */
+
+
+.why-choose-us2 .feature-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.why-choose-us2 .feature-box h3 {
+    text-align: left;
+    color: #002c89;
+    font-size: 18px;
+}
+
+.why-choose-us2 .feature-box p {
+    text-align: left;
+    color: #666;
+}
+
+.why-choose-us2 .feature-icon {
+    font-size: 1.8em;
+    color: #002c89; /* Adjust color as needed */
+}
+
+.why-choose-us2 .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.why-choose-us2 .section-title h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.why-choose-us2 .section-title p {
+    color: #666;
+}
+
+.why-choose-us2 .feature-icon {
+    font-size: 3em;
+    color: #002c89;
+}

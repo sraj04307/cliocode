@@ -1,0 +1,19 @@
+.portflio-nav li{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    padding:20px 15px;
+    cursor: pointer;
+}
+.portflio-nav li.active{
+    background: #002c89;
+    color: white;
+}
+
+.portfolio-content .row{
+    display: none ;
+}
+
+.portfolio-content .row.active{
+    display: block;
+}
